@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/use-better-effect.svg)][npm_url]
 [![downloads](https://img.shields.io/npm/dt/use-better-effect.svg)][npm_url]
-![license](https://img.shields.io/npm/l/use-better-effect.svg)]
+![license](https://img.shields.io/npm/l/use-better-effect.svg)
 ![size](https://img.shields.io/bundlephobia/minzip/use-better-effect)
 
 [![Coverage Status](https://coveralls.io/repos/github/davidhu2000/use-better-effect/badge.svg?branch=main)](https://coveralls.io/github/davidhu2000/use-better-effect?branch=main)
