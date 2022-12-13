@@ -1,6 +1,6 @@
 {
   "name": "use-better-effect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
@@ -25,6 +25,6 @@
   "scripts": {
     "prepublish": "rm -rf dist; tsc",
     "test": "jest",
-    "build": "tsc"
+    "build": "rm -rf dist; tsc"
   }
 }
