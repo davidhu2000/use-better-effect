@@ -2,4 +2,6 @@
 .yarnrc
 src/*.test.ts
 jest.config.ts
+.github
+coverage
 
