@@ -1,6 +1,6 @@
 {
   "name": "use-better-effect",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A wrapper around React.useEffect with improved API",
   "repository": {
     "type": "git",
