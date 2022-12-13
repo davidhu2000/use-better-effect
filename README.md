@@ -10,6 +10,8 @@
 ![Types Included](https://img.shields.io/npm/types/use-better-effect)
 ![Tree Shaking Supported](https://badgen.net/bundlephobia/tree-shaking/use-better-effect)
 
+[npm_url]: https://www.npmjs.org/package/use-better-effect
+
 A wrapper around `React.useEffect` but with improved API
 
 ## Installation
