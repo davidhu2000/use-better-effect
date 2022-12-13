@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { act, render } from "@testing-library/react";
-import { useBetterEffect } from "./use-better-effect";
+import { useBetterEffect } from "./index";
 
 describe("useBetterEffect", () => {
   beforeEach(() => {
