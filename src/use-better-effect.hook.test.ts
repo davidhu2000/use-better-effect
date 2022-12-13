@@ -97,7 +97,7 @@ describe("useBetterEffect", () => {
         { initialProps: { dependencies: [1, 2, 3] } }
       );
       expect(callbackFn).toHaveBeenCalledTimes(1);
-      rerender({ dependencies: [1, 2, 3, 4] });
+      rerender({ dependencies: [2, 3, 4] });
       expect(callbackFn).toHaveBeenCalledTimes(2);
     });
 
