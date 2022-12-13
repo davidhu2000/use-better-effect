@@ -18,16 +18,16 @@ npm install --save use-better-effect
 
 ## Background
 
-`useEffect` is a power tool but the API has some gotchas. See the following examples
+`useEffect` is a powerful tool but the API has some gotchas. See the following examples:
 
 ```ts
-// not passing dependencies mean someFn runs on ever render
+// someFn runs on every render
 useEffect(() => someFn());
 
-// passing [] as dependencies mean someFn only run on mount
+// someFn only run on mount
 useEffect(() => someFn(), []);
 
-// passing [a, b] as dependencies mean someFn rerun when a or b changes
+// someFn rerun when a or b changes
 useEffect(() => someFn(), [a, b]);
 
 // the returned function of the passed in callback function is called on mount.
