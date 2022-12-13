@@ -54,6 +54,8 @@ The cleanup function is passing as an explict optional arugment.
 ## Examples
 
 ```ts
+import { useBetterEffect } from "use-better-effect";
+
 useBetterEffect({
   callbackFn: () => console.log("yay better"),
   cleanupFn: () => console.log("so fresh and so clean"),
