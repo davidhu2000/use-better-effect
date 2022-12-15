@@ -34,15 +34,21 @@ npm install --save use-better-effect
 
 ```ts
 // someFn runs on every render
-useEffect(() => someFn());
+useEffect(() => {
+  someFn();
+});
 
 // someFn only run on mount
-useEffect(() => someFn(), []);
+useEffect(() => {
+  someFn();
+}, []);
 
 // someFn rerun when a or b changes
-useEffect(() => someFn(), [a, b]);
+useEffect(() => {
+  someFn();
+}, [a, b]);
 
-// the returned function of the passed in callback function is called on mount.
+// the returned function is called on unmount
 useEffect(() => {
   someFn();
   return () => anotherFn();
